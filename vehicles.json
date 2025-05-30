@@ -1,0 +1,16 @@
+[
+    {
+        "id": "bb78b169-980d-48d6-ad67-aaf60e0931bd",
+        "make": "1",
+        "model": "2",
+        "variant": "3",
+        "vehicle_name": "123"
+    },
+    {
+        "id": "7346ad61-55cb-46bf-a333-08f985f1aa50",
+        "make": "1",
+        "model": "2",
+        "variant": "3",
+        "vehicle_name": "123"
+    }
+]
