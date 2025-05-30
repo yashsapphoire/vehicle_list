@@ -144,3 +144,21 @@ else:
                 st.success("Vehicle deleted successfully!")
                 st.rerun()
         st.divider()
+
+# Add JSON data section
+st.subheader("JSON Data")
+col1, col2 = st.columns([1, 1])
+
+with col1:
+    if st.button("Show Raw JSON"):
+        st.json(vehicles)
+
+with col2:
+    # Create download button for JSON
+    if st.download_button(
+        label="Download JSON",
+        data=json.dumps(vehicles, indent=4),
+        file_name="vehicles.json",
+        mime="application/json"
+    ):
+        st.success("JSON file downloaded successfully!")
